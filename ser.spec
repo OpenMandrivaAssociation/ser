@@ -22,6 +22,7 @@ BuildRequires:	radiusclient-ng-devel
 BuildRequires:	libxml2-devel
 BuildRequires:	MySQL-devel
 BuildRequires:	postgresql-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Ser or SIP Express Router is a very fast and flexible SIP (RFC3621)
