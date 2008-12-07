@@ -20,7 +20,7 @@ BuildRequires:	expat-devel
 BuildRequires:	flex
 BuildRequires:	radiusclient-ng-devel
 BuildRequires:	libxml2-devel
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
