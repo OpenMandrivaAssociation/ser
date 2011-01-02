@@ -13,6 +13,7 @@ Group:		System/Servers
 URL:		http://iptel.org/ser
 Source0:	http://iptel.org/ser/stable/%{name}-%{version}_src.tar.bz2
 Patch1:		ser-0.8.14-errno.diff
+Patch2:		ser-0.9.6-str-fmt.patch
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 BuildRequires:	bison
@@ -66,6 +67,7 @@ membership and uri checking.
 
 %setup -q
 %patch1 -p0
+%patch2 -p0 -b .str
 
 # lib64 fixes
 find -type f | xargs perl -pi -e 's|/usr/lib|%{_libdir}|g'
