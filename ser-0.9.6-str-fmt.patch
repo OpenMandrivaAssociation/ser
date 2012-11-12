@@ -1,0 +1,11 @@
+--- action.c.str	2011-01-02 16:48:24.000000000 +0000
++++ action.c	2011-01-02 16:48:43.000000000 +0000
+@@ -270,7 +270,7 @@
+ 				ret=E_BUG;
+ 				break;
+ 			}
+-			LOG(a->p1.number, a->p2.string);
++			LOG(a->p1.number, "%s", a->p2.string);
+ 			ret=1;
+ 			break;
+ 

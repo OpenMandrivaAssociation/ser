@@ -1,0 +1,11 @@
+--- lock_ops.h	2004-07-27 01:18:35.000000000 +0200
++++ lock_ops.h.oden	2005-04-24 17:31:55.000000000 +0200
+@@ -66,6 +66,8 @@
+ #ifndef _lock_ops_h
+ #define _lock_ops_h
+ 
++#include <errno.h>
++
+ 
+ #ifdef FAST_LOCK
+ #include "fastlock.h"
