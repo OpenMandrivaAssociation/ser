@@ -247,3 +247,67 @@ install -m755 rpm/ser.init %{buildroot}%{_initrddir}/ser
 %{_libdir}/ser/modules/avp_radius.so
 
 
+
+
+%changelog
+* Thu Mar 17 2011 Oden Eriksson <oeriksson@mandriva.com> 0.9.6-12mdv2011.0
++ Revision: 645879
+- relink against libmysqlclient.so.18
+
+* Sun Jan 02 2011 Funda Wang <fwang@mandriva.org> 0.9.6-11mdv2011.0
++ Revision: 627606
+- fix str fmt
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - rebuilt against mysql-5.5.8 libs, again
+    - rebuilt against mysql-5.5.8 libs
+    - rebuild
+    - use lowercase mysql-devel
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Sat Dec 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0.9.6-6mdv2009.1
++ Revision: 311318
+- rebuilt against mysql-5.1.30 libs
+
+* Sat Aug 02 2008 Thierry Vignaud <tv@mandriva.org> 0.9.6-5mdv2009.0
++ Revision: 260626
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0.9.6-4mdv2009.0
++ Revision: 252333
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Dec 27 2007 Adam Williamson <awilliamson@mandriva.org> 0.9.6-2mdv2008.1
++ Revision: 138593
+- rebuild for new expat (ser-jabber depends on libexpat.so.0)
+- new license policy
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Wed Jan 03 2007 Stefan van der Eijk <stefan@mandriva.org> 0.9.6-1mdv2007.0
++ Revision: 103845
+- Import ser
+
+* Thu Feb 09 2006 Oden Eriksson <oeriksson@mandriva.com> 0.9.6-1mdk
+- 0.9.6
+- drop P0 as another approach is implemented upstream
+
+* Mon Apr 25 2005 Oden Eriksson <oeriksson@mandriva.com> 0.9.0-1mdk
+- 0.9.0 (x86_64 fixes)
+- build against new radiusclient-ng libs (P0)
+- added a missing errno header incusion (P1)
+
+* Thu Feb 10 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.8.12-2mdk
+- rebuilt against new mysql libs
+- misc spec file fixes
+
+* Mon Jun 07 2004 Stefan van der Eijk <stefan@mandrake.org> 0.8.12-1mdk
+- Mandrake adaptions
+
