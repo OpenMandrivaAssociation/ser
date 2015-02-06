@@ -7,7 +7,7 @@
 Summary:	SIP Express Router, very fast and flexible SIP Proxy
 Name:		ser
 Version:	0.9.6
-Release:	%mkrel 12
+Release:	13
 License:	GPLv2+
 Group:		System/Servers
 URL:		http://iptel.org/ser
