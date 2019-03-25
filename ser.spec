@@ -1,3 +1,5 @@
+%define _disable_ld_no_undefined 1
+
 %define EXCLUDED_MODULES	mysql jabber auth_radius group_radius uri_radius avp_radius postgress snmp cpl cpl-c ext extcmd
 %define JABBER_MODULES		jabber
 %define MYSQL_MODULES		mysql
@@ -7,7 +9,7 @@
 Summary:	SIP Express Router, very fast and flexible SIP Proxy
 Name:		ser
 Version:	0.9.6
-Release:	13
+Release:	14
 License:	GPLv2+
 Group:		System/Servers
 URL:		http://iptel.org/ser
