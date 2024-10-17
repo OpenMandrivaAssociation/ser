@@ -12,7 +12,7 @@ Version:	0.9.6
 Release:	14
 License:	GPLv2+
 Group:		System/Servers
-URL:		http://iptel.org/ser
+URL:		https://iptel.org/ser
 Source0:	http://iptel.org/ser/stable/%{name}-%{version}_src.tar.bz2
 Patch1:		ser-0.8.14-errno.diff
 Patch2:		ser-0.9.6-str-fmt.patch
