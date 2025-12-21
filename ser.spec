@@ -18,6 +18,7 @@ Patch1:		ser-0.8.14-errno.diff
 Patch2:		ser-0.9.6-str-fmt.patch
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
+BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	expat-devel
 BuildRequires:	flex
